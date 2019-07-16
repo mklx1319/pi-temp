@@ -17,9 +17,9 @@ const getSystemInfo = async () => {
     "current cpu temp " +
       main +
       "now: " +
-      newDate.today() +
+      currentdate.today() +
       " @ " +
-      newDate.timeNow()
+      currentdate.timeNow()
   );
   docRef.set({
     celsius: main,
