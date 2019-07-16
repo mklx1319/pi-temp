@@ -1,0 +1,10 @@
+{
+  "name": "test-cpu-temp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^8.2.0",
+    "systeminformation": "^4.14.3"
+  }
+}
