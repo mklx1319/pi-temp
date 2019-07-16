@@ -9,9 +9,8 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
-let docRef = db.collection("temp").doc();
-
 const getSystemInfo = async () => {
+  const docRef = db.collection("temp").doc();
   const { main } = await si.cpuTemperature();
   docRef.set({
     celsius: main,
